@@ -1,3 +1,14 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
 .hero {
     background-color: #1f2937;
     padding: 12px 82px;
@@ -53,16 +64,28 @@ button {
     gap: 24px;
 }
 
-.hero img{
+.hero img {
     background-color: #6D747D;
     align-content: center;
-    flex: 1 0 400px;
+    flex: 1 0 100px;
     text-align: center;
 }
 
 .signup-text {
-    display:flex;
+    flex: 1 0 100px;
+    display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
+.content {
+    flex: 1;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    align-content: center;
+    padding: 24px;
+    color: #E5e7eb;
+}
