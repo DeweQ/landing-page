@@ -76,6 +76,11 @@ button {
 
 .content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
+    /* align-items: center; */
 }
 
 .footer {
@@ -85,3 +90,94 @@ button {
     padding: 24px;
     color: #E5e7eb;
 }
+
+.content h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.content img {
+    border: #3882f6 solid 2px;
+    border-radius: 5%;
+    flex: 1 0 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.content .container {
+    justify-content: center;
+    gap: 48px;
+}
+
+.item {
+    flex: 0 0 150px;
+    color: #4B5563;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+
+    padding: 48px;
+}
+
+.quote {
+    flex: 1;
+    max-width: 774px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text {
+    flex: none;
+    max-width: 774px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .author {
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: 700;
+}
+
+.popup {
+    padding: 24px 64px;
+    border-radius: 5px;
+    display: flex;
+    background-color: #3882f6;
+    align-self: center;
+    color: #F9faf8;
+    gap: 64px;
+    margin-bottom: 64px;
+}
+
+.popup button {
+    align-self: center;
+    color: #F9FaF8;
+    border: 1px solid #F9FaF8;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.popup text {
+    color: #E5e7eb;
+    font-weight: 100;
+    font-size: 14px;
+}
+
